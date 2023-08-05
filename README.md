@@ -1,3 +1,12 @@
+Restaurant website using:
+> reactjs
+> redux for form validation
+> have multiple pages
+> routing
+> jumbotron
+> breadcrum
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
