@@ -1,19 +1,22 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import { Navbar, NavbarBrand } from 'reactstrap';
-import Menu from './components/MenuComponent';
+import Main from './components/MainComponent';
+// import Menu from './components/MenuComponent';
+// import { DISHES } from './shared/dishes';
 
-function App() {
-  return (
-    <div>
-     <Navbar dark color="primary">
-          <div className="container">
-            <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
-          </div>
-      </Navbar>
-      <Menu />
-    </div>
-  );
+class App extends Component {
+
+  render(){
+    return (
+      <BrowserRouter>
+      <div>
+        <Main/>
+      </div>
+      </BrowserRouter>
+    )
+  }
 }
 
 export default App;
